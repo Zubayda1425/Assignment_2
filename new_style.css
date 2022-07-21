@@ -199,6 +199,10 @@ body {
     margin-right: 15px;
 }
 
+.view {
+    display: none;
+}
+
 /* 2nd website match schedule
  */
 
@@ -396,7 +400,9 @@ footer {
         column-gap: 25px;
     }
 
-
+    .view {
+        display: block;
+    }
 }
 
 
