@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    width: 100vw;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.header_content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: black;
+    width: 1150px;
+    height: 550px;
+    color: white;
+    top: 50px;
+}
+
+.header_heading {
+    width: 41%;
+}
+
+.header_heading h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header_heading p {
+    font-size: 15px;
+    color: #c2cbf3;
+}
+
+
+#header_image {
+
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+#header_image img {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 28px;
+}
+
+#watch_live {
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: red;
+    width: 150px;
+    color: white;
+    border-radius: 3px;
+    margin-left: 0;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_content {
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.match_nav {
+    height: 280px;
+    width: 300px;
+    background-color: rgba(16, 17, 22, 0.966);
+    border-radius: 10px;
+    position: relative;
+}
+
+#nav {
+    position: absolute;
+    left: 6px;
+    top: 3px;
+}
+
+.nav_cont {
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    color: black;
+    text-align: center;
+    padding: 14px 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.nav_link {
+    text-decoration: none;
+}
+
+
+
+.match_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.match_content img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.card {
+    border: 1px solid rgba(189, 188, 188, 0.384);
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.card_content {
+    padding: 10px;
+}
+
+.time_msg {
+    color: grey;
+    display: flex;
+}
+
+.time_msg div {
+    margin-right: 15px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.911);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_area {
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_cont h1 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.hr {
+    width: 1150px;
+    border: none;
+    height: .2px;
+    background-color: rgba(75, 74, 74, 0.425);
+    margin: 40px;
+}
+
+.link_cont {
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_link {
+    color: rgb(158, 158, 158);
+    font-size: 15px;
+}
